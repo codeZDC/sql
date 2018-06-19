@@ -16,6 +16,17 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`im` /*!40100 DEFAULT CHARACTER SET utf8
 
 USE `im`;
 
+/*Table structure for table `hehe` */
+
+DROP TABLE IF EXISTS `hehe`;
+
+CREATE TABLE `hehe` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(25) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `hehe` */
+
 /*Table structure for table `t_menu` */
 
 DROP TABLE IF EXISTS `t_menu`;
